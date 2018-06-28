@@ -63,7 +63,10 @@ DragType currentDragType = DRAG_OFF;
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    // SB must have set to 1, then this seems to work ok
+    // set this to whatever your desired touch radius is
+    touchRadius = 25;
+    
+    // In Storyboard this must have set to 1, then this seems to work ok
     // when setting the double tap here
     _foregroundTapGesture.numberOfTapsRequired = 2;
     _backgroundTapGesture.numberOfTapsRequired = 2;
