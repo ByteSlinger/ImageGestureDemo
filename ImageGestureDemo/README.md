@@ -16,7 +16,7 @@ or UIImageView.  But for simplicity and reference sake, all code and
 methods are in one place, this ViewController subclass.  There is no
 error checking at all.  App tested on an iPhone 6+ and an iPad gen3.
 
-##Features##
+## Features
 * allows an image to be resized with pan gesture by dragging corners and sides
 * background image can be modified (pan, pinch, rotate)
 * foreground image can be modified (pan, pinch, rotate, drag/resize)
@@ -29,7 +29,7 @@ error checking at all.  App tested on an iPhone 6+ and an iPad gen3.
 * uses CGAffineTransform objects for image manipulation
 * uses UIGestureRecognizerStateBegan in gestures to save transforms (the secret sauce...)
 
-##Known Issues##
+## Known Issues
 * when the image is rotated, determining if a touch is on a corner or side
 does not work for large rotations.  Need to check touch points against
 non rotated view frame and adjust accordingly.
