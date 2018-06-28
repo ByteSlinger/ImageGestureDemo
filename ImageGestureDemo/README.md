@@ -11,7 +11,7 @@ There is a background image and a foreground image.  Both images can be
 panned, pinched and rotated, but only the foreground image can be resized
 by dragging one of it's corners or it's sides.
 
-*NOTE:*  Sure, much of this code could have been put into a subclass of UIView
+**NOTE:**  Sure, much of this code could have been put into a subclass of UIView
 or UIImageView.  But for simplicity and reference sake, all code and
 methods are in one place, this ViewController subclass.  There is no
 error checking at all.  App tested on an iPhone 6+ and an iPad gen3.
