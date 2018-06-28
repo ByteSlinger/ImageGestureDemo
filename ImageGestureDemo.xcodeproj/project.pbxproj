@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C7D1D8C20E53C5A0063574A /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D1D8B20E53C5A0063574A /* screenshot.png */; };
 		4C80948720E488940012D229 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C80948620E488940012D229 /* README.md */; };
 		4CA798D220DC578500D4C078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA798D120DC578500D4C078 /* AppDelegate.m */; };
 		4CA798D520DC578500D4C078 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA798D420DC578500D4C078 /* ViewController.m */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C7D1D8B20E53C5A0063574A /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		4C80948620E488940012D229 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CA798CD20DC578500D4C078 /* ImageGestureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGestureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA798D020DC578500D4C078 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				4CA798D620DC578500D4C078 /* Main.storyboard */,
 				4CA798E920DC58C200D4C078 /* sunset.jpg */,
 				4CA798EB20DC593900D4C078 /* logo.png */,
+				4C7D1D8B20E53C5A0063574A /* screenshot.png */,
 				4CA798DC20DC578700D4C078 /* Assets.xcassets */,
 				4CA798DE20DC578700D4C078 /* LaunchScreen.storyboard */,
 				4CA798E120DC578700D4C078 /* Info.plist */,
@@ -145,6 +148,7 @@
 				4CA798EC20DC593900D4C078 /* logo.png in Resources */,
 				4CA798DD20DC578700D4C078 /* Assets.xcassets in Resources */,
 				4CA798D820DC578500D4C078 /* Main.storyboard in Resources */,
+				4C7D1D8C20E53C5A0063574A /* screenshot.png in Resources */,
 				4CA798EA20DC58C200D4C078 /* sunset.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
