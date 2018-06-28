@@ -17,7 +17,7 @@ methods are in one place, this ViewController subclass.  There is no
 error checking at all.  App tested on an iPhone 6+ and an iPad gen3.
 
 ## Screenshot
-<img src="./screenshot.jpg" />
+<img src="https://github.com/ByteSlinger/ImageGestureDemo/blob/master/ImageGestureDemo/screenshot.png?raw=true" />
 
 ## Features
 * allows an image to be resized with pan gesture by dragging corners and sides
