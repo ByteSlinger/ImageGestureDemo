@@ -16,6 +16,9 @@ or UIImageView.  But for simplicity and reference sake, all code and
 methods are in one place, this ViewController subclass.  There is no
 error checking at all.  App tested on an iPhone 6+ and an iPad gen3.
 
+## Screenshot
+<img src="./screenshot.jpg" />
+
 ## Features
 * allows an image to be resized with pan gesture by dragging corners and sides
 * background image can be modified (pan, pinch, rotate)
