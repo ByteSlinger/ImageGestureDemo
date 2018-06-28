@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C80948720E488940012D229 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C80948620E488940012D229 /* README.md */; };
 		4CA798D220DC578500D4C078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA798D120DC578500D4C078 /* AppDelegate.m */; };
 		4CA798D520DC578500D4C078 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA798D420DC578500D4C078 /* ViewController.m */; };
 		4CA798D820DC578500D4C078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA798D620DC578500D4C078 /* Main.storyboard */; };
@@ -14,9 +15,12 @@
 		4CA798DD20DC578700D4C078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA798DC20DC578700D4C078 /* Assets.xcassets */; };
 		4CA798E020DC578700D4C078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA798DE20DC578700D4C078 /* LaunchScreen.storyboard */; };
 		4CA798E320DC578700D4C078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA798E220DC578700D4C078 /* main.m */; };
+		4CA798EA20DC58C200D4C078 /* sunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA798E920DC58C200D4C078 /* sunset.jpg */; };
+		4CA798EC20DC593900D4C078 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA798EB20DC593900D4C078 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C80948620E488940012D229 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CA798CD20DC578500D4C078 /* ImageGestureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGestureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA798D020DC578500D4C078 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CA798D120DC578500D4C078 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +32,8 @@
 		4CA798DF20DC578700D4C078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CA798E120DC578700D4C078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA798E220DC578700D4C078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CA798E920DC58C200D4C078 /* sunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunset.jpg; sourceTree = "<group>"; };
+		4CA798EB20DC593900D4C078 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +71,14 @@
 				4CA798D320DC578500D4C078 /* ViewController.h */,
 				4CA798D420DC578500D4C078 /* ViewController.m */,
 				4CA798D620DC578500D4C078 /* Main.storyboard */,
+				4CA798E920DC58C200D4C078 /* sunset.jpg */,
+				4CA798EB20DC593900D4C078 /* logo.png */,
 				4CA798DC20DC578700D4C078 /* Assets.xcassets */,
 				4CA798DE20DC578700D4C078 /* LaunchScreen.storyboard */,
 				4CA798E120DC578700D4C078 /* Info.plist */,
 				4CA798E220DC578700D4C078 /* main.m */,
 				4CA798D920DC578500D4C078 /* ImageGestureDemo.xcdatamodeld */,
+				4C80948620E488940012D229 /* README.md */,
 			);
 			path = ImageGestureDemo;
 			sourceTree = "<group>";
@@ -131,9 +140,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C80948720E488940012D229 /* README.md in Resources */,
 				4CA798E020DC578700D4C078 /* LaunchScreen.storyboard in Resources */,
+				4CA798EC20DC593900D4C078 /* logo.png in Resources */,
 				4CA798DD20DC578700D4C078 /* Assets.xcassets in Resources */,
 				4CA798D820DC578500D4C078 /* Main.storyboard in Resources */,
+				4CA798EA20DC58C200D4C078 /* sunset.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
