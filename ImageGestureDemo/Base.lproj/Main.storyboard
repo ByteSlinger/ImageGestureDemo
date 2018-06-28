@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,147 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView opaque="NO" multipleTouchEnabled="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="sunset.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ZZN-n9-qiO" userLabel="background-image">
+                                <rect key="frame" x="-1375" y="-940" width="3104" height="2326"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="YXt-1G-kqq" appends="YES" id="OSc-Pd-bw8"/>
+                                    <outletCollection property="gestureRecognizers" destination="OQr-wy-4om" appends="YES" id="R4E-gs-526"/>
+                                    <outletCollection property="gestureRecognizers" destination="wRq-bw-5fD" appends="YES" id="GH4-M3-KXF"/>
+                                    <outletCollection property="gestureRecognizers" destination="FTi-0Q-SxC" appends="YES" id="eYz-fE-jVZ"/>
+                                </connections>
+                            </imageView>
+                            <imageView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ndl-he-CCq" userLabel="foreground-image">
+                                <rect key="frame" x="87" y="246" width="200" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="IxJ-ed-7of" appends="YES" id="Vmb-i9-Rsx"/>
+                                    <outletCollection property="gestureRecognizers" destination="Whw-UX-h3C" appends="YES" id="tM7-aE-POW"/>
+                                    <outletCollection property="gestureRecognizers" destination="saB-CA-eMw" appends="YES" id="VIN-i3-nII"/>
+                                    <outletCollection property="gestureRecognizers" destination="st7-Qi-XER" appends="YES" id="gXd-ZZ-Vpd"/>
+                                </connections>
+                            </imageView>
+                            <stackView opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="39L-AF-7AN">
+                                <rect key="frame" x="16" y="531" width="142" height="120"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Touch Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="liW-Dj-IwU" userLabel="Touch Info Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="24"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Change Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gm9-fO-hjj" userLabel="Change Info Label">
+                                        <rect key="frame" x="0.0" y="24" width="106" height="24"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Image Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sci-Z2-TuS">
+                                        <rect key="frame" x="0.0" y="48" width="91" height="24"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Background Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGY-ms-XP9" userLabel="Background Info Label">
+                                        <rect key="frame" x="0.0" y="72" width="142" height="24"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Screen Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txG-oe-8hc" userLabel="Screen Info Label">
+                                        <rect key="frame" x="0.0" y="96" width="98" height="24"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="39L-AF-7AN" secondAttribute="bottom" constant="16" id="JaJ-Xq-9fb"/>
+                            <constraint firstItem="39L-AF-7AN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xyv-27-tgU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="ZZN-n9-qiO" id="Qgt-6e-XHB"/>
+                        <outlet property="backgroundInfoLabel" destination="qGY-ms-XP9" id="Cxe-HT-dZR"/>
+                        <outlet property="backgroundTapGesture" destination="OQr-wy-4om" id="eiH-0u-bb0"/>
+                        <outlet property="changeInfoLabel" destination="gm9-fO-hjj" id="S17-7e-HgF"/>
+                        <outlet property="foregroundImageView" destination="ndl-he-CCq" id="9rM-VB-jCE"/>
+                        <outlet property="foregroundTapGesture" destination="st7-Qi-XER" id="sEX-1e-kZr"/>
+                        <outlet property="imageInfoLabel" destination="sci-Z2-TuS" id="c4M-Xd-nkb"/>
+                        <outlet property="screenInfoLabel" destination="txG-oe-8hc" id="B95-yY-S2n"/>
+                        <outlet property="touchInfoLabel" destination="liW-Dj-IwU" id="B0W-9x-3rQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer cancelsTouchesInView="NO" delaysTouchesEnded="NO" id="st7-Qi-XER" userLabel="Foreground Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="handleDoubleTap:" destination="BYZ-38-t0r" id="9Ia-m8-PD0"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="4ST-3j-yp6"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer cancelsTouchesInView="NO" delaysTouchesEnded="NO" minimumNumberOfTouches="1" id="IxJ-ed-7of" userLabel="Foreground Pan Gesture Recognizer">
+                    <connections>
+                        <action selector="handleResize:" destination="BYZ-38-t0r" id="RyZ-OG-aP2"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Kef-Yw-18H"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer cancelsTouchesInView="NO" delaysTouchesEnded="NO" id="Whw-UX-h3C" userLabel="Foreground Pinch Gesture Recognizer">
+                    <connections>
+                        <action selector="handlePinch:" destination="BYZ-38-t0r" id="gdd-Ul-0ov"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="xRY-VA-KqW"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer cancelsTouchesInView="NO" delaysTouchesEnded="NO" id="saB-CA-eMw" userLabel="Foreground Rotation Gesture Recognizer">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="HLS-Wp-VlE"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="t2T-QC-VHr"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <tapGestureRecognizer cancelsTouchesInView="NO" delaysTouchesEnded="NO" id="OQr-wy-4om" userLabel="Background Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="handleDoubleTap:" destination="BYZ-38-t0r" id="dG5-fz-CbI"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="cY3-bN-Q4a"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer cancelsTouchesInView="NO" delaysTouchesEnded="NO" minimumNumberOfTouches="1" id="YXt-1G-kqq" userLabel="Background Pan Gesture Recognizer">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="uvA-on-CFs"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="6RR-HJ-uIO"/>
+                    </connections>
+                </panGestureRecognizer>
+                <rotationGestureRecognizer cancelsTouchesInView="NO" delaysTouchesEnded="NO" id="wRq-bw-5fD" userLabel="Background Rotation Gesture Recognizer">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="O0t-xH-LyI"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="08y-2x-7gE"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <pinchGestureRecognizer id="FTi-0Q-SxC" userLabel="Background Pinch Gesture Recognizer">
+                    <connections>
+                        <action selector="handlePinch:" destination="BYZ-38-t0r" id="wdj-0O-z7p"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="rDx-33-maX"/>
+                    </connections>
+                </pinchGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="-388" y="-163.26836581709148"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo.png" width="469" height="406"/>
+        <image name="sunset.jpg" width="3104" height="2326"/>
+    </resources>
 </document>

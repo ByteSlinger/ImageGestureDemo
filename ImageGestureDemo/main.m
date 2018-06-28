@@ -2,7 +2,7 @@
 //  main.m
 //  ImageGestureDemo
 //
-//  Created by Michael S. Hearn on 6/21/18.
+//  Created by ByteSlinger on 6/21/18.
 //  Copyright © 2018 ByteSlinger. All rights reserved.
 //
 
