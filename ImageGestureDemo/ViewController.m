@@ -436,7 +436,7 @@ DragType currentDragType = DRAG_OFF;
             ty = 0;
             newFrame.origin.x += translation.x;
             newFrame.size.width -= translation.x;
-        } else if (currentDragType == DRAG_BOTTOM) {
+        } else if (currentDragType == DRAG_RIGHT) {
             ty = 0;
             newFrame.size.width += translation.x;
         } else { //if (currentDragType == DRAG_CENTER) {
@@ -498,7 +498,7 @@ DragType currentDragType = DRAG_OFF;
 //
 // Pinch (resize) an image on the ViewController View
 //
-- (void)handlePinch:(UIPinchGestureRecognizer *)recognizer {
+- (IBAction)handlePinch:(UIPinchGestureRecognizer *)recognizer {
     static CGSize initialSize;
     static CGAffineTransform initialTransform;
     
